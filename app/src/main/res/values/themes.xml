@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyCourseP8" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Base.Theme.MyCourseP8.WithActionBar" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="windowActionBar">true</item>
+    </style>
+
+    <style name="Theme.MyCourseP8" parent="Base.Theme.MyCourseP8" />
+    <style name="Theme.MyCourseP8.WithActionBar" parent="Base.Theme.MyCourseP8.WithActionBar" />
+
+</resources>
